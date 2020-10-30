@@ -27,7 +27,6 @@
     float: right;
     color: #fff!important;
 }
-
 .navbar-nav li a:hover{
     color: #013f7e;
 }
@@ -43,7 +42,7 @@
 }
 
 nav .fa-bars{
-    color: #fff!important;
+    color: #ffff!important;
     font-size: 26px;;
 }
 
