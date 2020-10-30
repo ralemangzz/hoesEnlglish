@@ -234,11 +234,13 @@ nav .fa-bars{
     font-family: 'Droid Sans', sans-serif;
     font-weight: bold;
 }
-.tz-sucursales {
+.tz-sucursales h3 {
     padding: 40px;
+    margin: auto;
+    text-align: center;
 }
 
-.tz-sucursales  img {
+.tz-sucursales  img, frame {
     width: 100%;
     margin-bottom: 30px;
     transition: 0.2s ease-in-out;
@@ -246,6 +248,16 @@ nav .fa-bars{
 }
 .tz-sucursales img {
     border-radius: 4px;
+}
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
 }
 
 
