@@ -65,7 +65,7 @@
     <div class="welcome text-center wow slideInLeft">
     <h1 class="wow bounceInLeft delay-2s">Hoes English Center</h1>
     <p class="wow bounceInRight delay-2s"><strong>¡SUPERATE EN HABLAR INGLÉS!</strong></p>
-    <button type="submit" class="btn home-btn">¡Contáctanos!</button>
+    <a href="#footer"><button type="submit" class="btn home-btn">¡Contáctanos!</button></a>
   </div>
   </div>
 </section>
@@ -256,34 +256,37 @@
 </section>
 
 <!------contact-->
+<form action="https://formspree.io/f/mqkgqjjv" method="POST">
 <section class="get_in_touch">
  <h1 class="title wow bounceIn">¡Obtén una beca especial!</h1>
  <div class="container">
    <div class="contact-form row">
       <div class="form-field col-lg-6">
-        <input id="name" class="input-text" type="name">
-        <label for="name" class="label">Nombre</label>
+        <input class="w3-input w3-border" name="first" type="text" placeholder="Nombre">
+        <label for="name" class="name">Nombre</label><span class="asterisk_input"> 
       </div>
       <div class="form-field col-lg-6">
-        <input id="email" class="input-text" type="email">
-        <label for="email" class="label">Correo electrónico</label>
+        <input class="w3-input w3-border" name="last" type="text" placeholder="Apellido">
+        <label for="name" class="name">Correo electrónico</label><span class="asterisk_input"> 
       </div>
       <div class="form-field col-lg-6">
-        <input id="phone" class="input-text" type="phone">
-        <label for="phone" class="label">Telefono</label>
+        <input class="w3-input w3-border" name="email" type="text" placeholder="Correo Electrónico"> 
+        <label for="name" class="name">Teléfono</label><span class="asterisk_input"> 
       </div>
       <div class="form-field col-lg-6">
-        <input id="message" class="input-text" type="phone">
-        <label for="message" class="label">Mensaje</label>
+        <input class="w3-input w3-border" name="message" type="text" placeholder="Mensaje">
+        <label for="name" class="name">Mensaje</label><span class="asterisk_input"> 
       </div>
       <div class="form-field col-lg-6">
-        <input class="submit-btn" type="submit" value="submit">
+        <input class="submit-btn" type="submit" value="enviar" required>
       </div>
    </div>
  </div>
 </section>
+</form>
 
 <!--footer-->
+
 <section id="footer">
  <div class="container">
    <div class="row"> 
@@ -296,18 +299,18 @@
       <h3>Contacto</h3>
       <p><i class="fa fa-phone-square"></i> 818191189</p>
       <p><i class="fa fa-envelope"></i> escolar_hoes@hotmail.com</p>
-      <p><i class="fa fa-phone-square"></i> 818191189</p>
      </div>
 
      <div class="col-md-3">
       <h3>Redes Sociales</h3>
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/HOESEnglishCenter" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/hoesenglishcenteroficial/" target="_blank"><i class="fab fa-instagram"></i></a>
      </div>
    </div> <hr>
    <p class="copyright">Hoes English 2020</p>
  </div>
 </section>
+
 
 
   

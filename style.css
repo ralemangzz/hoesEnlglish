@@ -401,6 +401,14 @@ nav .fa-bars{
 
 }
 
+.asterisk_input:after {
+    content:" *"; 
+    color: #e32;
+    position: relative;
+    margin: 0px 0px 0px -20px; 
+    font-size: xx-large; 
+    padding: 0 5px 0 0; }
+
 
 /*whatsapp*/
 
@@ -421,3 +429,5 @@ nav .fa-bars{
   .whatsapp-icon {
     margin-top:13px;
   }
+
+  
