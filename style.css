@@ -78,6 +78,24 @@ nav .fa-bars{
     box-shadow: none;
 }
 
+.container .shape-01{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border: 2px solid  #1331b3;
+    right: 5%;
+    top: 20%;
+    animation: ani01 5s linear infinite;
+}
+
+@keyframes ani01{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 /*about */
 
 #about{
